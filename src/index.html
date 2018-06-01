@@ -4,28 +4,30 @@
   <meta charset="utf-8">
   <title>Cifrado Cesar</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=Asap+Condensed|Mouse+Memoirs" rel="stylesheet"> 
  
 </head>
 <body>
   <h1>Cifrado Cesar</h1>
-  <p>En esta aplicación podras cifrar y descifrar mensajes, atraves del codigo cesar.</p>
-  <div class="p2">
-  <p>En el cuadro de abajo debes escoger el número de desplazamiento de tu cifrado</p>
+  <p>En esta aplicación podras cifrar y descifrar mensajes, a través del codigo cesar.</p>
   
   <!--Cifrado-->
-  <input type="number" id="desplazar">enviar
+  <div class="cis"></div>
+  <input type="number" id="desplazar" min="1">enviar
   <textarea id="message_cif">Escribe tu mensaje</textarea>
   <button class=cif id="cifrar">Cifrar</button>
   <p id="respuesta1"></p>
+  </div>
 
 
   <!--Descifrado-->
-  <input type="number" id="moverDes">enviar
+  <div class="des">
+  <input type="number" id="moverDes" min="1">enviar
   <textarea id= "message_dec"> Escribe tu mensaje</textarea>
   <button class="des" id="descifrar">Descifrar</button>
-  <p2 id="respuesta2"></p2>
-
+  <p id="respuesta2"></p>
+  </div>
+ 
 
 
   <div id="root"></div>

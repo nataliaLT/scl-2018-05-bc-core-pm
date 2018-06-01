@@ -15,13 +15,13 @@ window.cipher = {
     },
     
 
-  decode: (desplazar, texto1) => {
+  decode: (desplazarOne, textoOne) => {
     /* Acá va tu código */
     let mensajeDescifrado = "";
     /*obtengo la posicion de la letra*/
-    for (let i=0; i<texto1.length; i++){
-    let asciI= texto1.charCodeAt(i);
-    let posicionDes = (asciI + 65 + parseInt(desplazar)% 26 + 65);
+    for (let i=0; i<textoOne.length; i++){
+    let asciI= textoOne.charCodeAt(i);
+    let posicionDes = ((asciI + 65 - parseInt(desplazarOne))% 26 + 65);
     mensajeDescifrado +=String.fromCharCode(posicionDes);
     }
     console.log(mensajeDescifrado);

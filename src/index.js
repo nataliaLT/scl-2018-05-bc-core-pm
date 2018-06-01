@@ -12,7 +12,14 @@ cifrar.addEventListener('click', () => {
 });
 
 /*funcion descifrar, enlazada al boton*/
-Descifrar.addEventListener('click',()) => {
+descifrar.addEventListener('click',() => {
+    let textoOne= document.getElementById("message_dec").value.toUpperCase();
+    console.log(textoOne)
+    let desplazarOne= document.getElementById("moverDes").value;
+    console.log(desplazarOne)
+    let mensaje_descifrado= window.cipher.decode(desplazarOne, textoOne);
+    console.log(mensaje_descifrado)
+    respuesta2.innerHTML = mensaje_descifrado;
     
-}
+});
 }

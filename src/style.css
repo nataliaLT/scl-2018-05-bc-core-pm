@@ -1,3 +1,17 @@
 body{
     background-image: url("img/imagen1.jpg");
 }
+
+h1{
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 5em;
+    color: #260339;
+    text-align: center;
+}
+
+p{
+    font-family: 'Asap Condensed', sans-serif;
+    font-size: 1em;
+    color: #3E1255;
+    text-align: center;
+}
