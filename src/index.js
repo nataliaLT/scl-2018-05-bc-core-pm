@@ -1,7 +1,18 @@
 /* Acá va tu código */
-function mensaje (){
-    let message= document.getElementById("txt_message").value;
+window.onload = function(){
 
-    document.getElementById("message_dec").innerHTML=message;
+/*funcion cifrar, enlazada al boton*/
+cifrar.addEventListener('click', () => {
+    /*creo una variable para guardar el mensaje que esta en mi textarea*/
+    let texto= document.getElementById("message_cif").value.toUpperCase();
+    /*creo una variable para traer el valor dentro de mi input type*/
+    let desplazamiento= document.getElementById("desplazar").value;
+    let mensaje_cifrado= window.cipher.encode(desplazamiento, texto);
+    respuesta1.innerHTML = mensaje_cifrado;
+});
 
+/*funcion descifrar, enlazada al boton*/
+Descifrar.addEventListener('click',()) => {
+    
+}
 }
