@@ -2,16 +2,24 @@ body{
     background-image: url("img/imagen1.jpg");
 }
 
-h1{
-    font-family: 'Mouse Memoirs', sans-serif;
+h1{ 
+    top:0px;
+    font-family: 'Pacifico', cursive;
     font-size: 5em;
-    color: #260339;
+    color:#432F75;
     text-align: center;
 }
 
 p{
-    font-family: 'Asap Condensed', sans-serif;
-    font-size: 1em;
-    color: #3E1255;
+    font-family: 'Satisfy', cursive;
+    font-size: 2em;
+    color: black;
     text-align: center;
 }
+
+.codigo {
+    display: block;
+    position: absolute; left: 350px;
+   
+}
+
