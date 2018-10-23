@@ -14,5 +14,6 @@ Para bajar la aplicación, debes situarte en github, en el repositorio y hacer f
 https://natalialt.github.io/scl-2018-05-bc-core-pm/
 
 # Proyecto
-![veganmodal](https://user-images.githubusercontent.com/39282668/47385559-05951c80-d6d0-11e8-948e-d16ac663fa66.png)
+![cifradomodal](https://user-images.githubusercontent.com/39282668/47385840-b8fe1100-d6d0-11e8-8b4c-ff5bc65fa815.png)
+
 
